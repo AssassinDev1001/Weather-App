@@ -1,0 +1,37 @@
+td,th{
+    vertical-align:middle !important;
+    text-align:center !important;
+}
+
+.input-group{
+    margin:20px 0px;
+}
+
+svg{
+    height:150px;
+}
+
+td:first-of-type, td:first-of-type > div{
+    height:200px;
+    width:250px;
+}
+.cross{
+    color:white;
+}
+
+.table-hover tbody tr{
+    position:relative;
+}
+.table{
+    padding-right:20px;
+}
+.table-hover tbody tr>td .bttncross{
+    position:absolute;
+    color:red;
+    left:0px;
+    display:none;
+}
+
+.table-hover tbody tr:hover .bttncross{
+    display:block;
+}
